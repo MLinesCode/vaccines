@@ -92,7 +92,7 @@ nav {
 .vaccines-schedule {
   width: 70%;
   display: flex;
-  margin: 6rem auto 0 auto;
+  margin: 8rem auto 0 auto;
 }
 .vaccines-schedule h3 {
   margin: 0 0.7rem;
@@ -114,7 +114,7 @@ nav {
   margin: auto;
   padding: 1.5rem;
   position: absolute;
-  bottom: 13rem;
+  bottom: 11rem;
   left: 8rem;
   display: flex;
   border: none;
@@ -268,7 +268,7 @@ footer {
   height: 23rem;
   width: 100%;
   position: absolute;
-  bottom: -69.9rem;
+  bottom: -72.2rem;
   z-index: -1;
   background: linear-gradient(to right, #0f6ae0, #1d7be7);
 }
@@ -346,7 +346,7 @@ details > div {
   width: 50%;
   right: 0;
   position: absolute;
-  bottom: -109.9rem;
+  bottom: -112.1rem;
   z-index: -1;
   background: linear-gradient(to left, #0f6ae0, #1d7be7);
 }
@@ -401,7 +401,7 @@ details > div {
 .footer-legals {
   width: 100%;
   padding: 0 2rem;
-  bottom: -133.5rem;
+  bottom: -135.5rem;
   position: absolute;
   display: flex;
   justify-content: space-between;
