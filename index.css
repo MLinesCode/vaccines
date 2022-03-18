@@ -253,10 +253,155 @@ footer {
   list-style: none;
 }
 
+.preparations-container {
+  display: flex;
+}
+.user-container {
+  margin: 5rem 0;
+}
+.user-tips {
+  display: flex;
+  justify-content: end;
+  overflow: hidden;
+}
+.user-tips-background {
+  height: 23rem;
+  width: 100%;
+  position: absolute;
+  bottom: -69.9rem;
+  z-index: -1;
+  background: linear-gradient(to right, #0f6ae0, #1d7be7);
+}
+.tips-container {
+  padding: 3rem;
+}
+.tips-title h3 {
+  font-size: 2rem;
+  padding: 0 0 1rem 0;
+}
+.tips-title p {
+  width: 90%;
+  font-size: 1.1rem;
+}
+.tips-info {
+  margin-top: 1rem;
+  padding-top: 0.5rem;
+}
+.tips-list {
+  font-size: 1.3rem;
+}
+details {
+  margin-bottom: 2rem;
+  padding: 0.3rem 1rem;
+}
+details summary {
+  cursor: pointer;
+}
+details summary > * {
+  display: inline;
+}
+summary {
+  list-style: none;
+}
+summary::webkit-details-marker {
+  display: none;
+}
+details > div {
+  margin-top: 0;
+  padding: 0.8rem;
+  background: #f5f8ff;
+  box-shadow: 0px 3px 10px #dbe7ff;
+}
+.list-text {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.emergency-container {
+  display: flex;
+  padding: 3rem 0;
+}
+.emergency-text {
+  padding: 2rem;
+}
+.emergency-text h3 {
+  font-size: 1.9rem;
+  margin: 0 0 1rem 0;
+}
+.emergency-menu {
+  display: grid;
+  padding: 1rem 2.8rem;
+  grid-gap: 1.8rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.contact-image {
+  display: flex;
+  padding-left: 5.5rem;
+  justify-content: end;
+  overflow: hidden;
+}
+.contact-background {
+  height: 23rem;
+  width: 50%;
+  right: 0;
+  position: absolute;
+  bottom: -109.9rem;
+  z-index: -1;
+  background: linear-gradient(to left, #0f6ae0, #1d7be7);
+}
+
+.card-info {
+  width: 12rem;
+  padding: 0.6rem;
+  box-shadow: 0px 3px 10px #dbe7ff;
+}
+.card-items {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.item-icon {
+  height: 42px;
+  width: 42px;
+  border-radius: 5px;
+  background-color: rgb(239, 244, 255);
+  object-fit: contain;
+}
+.item-icon img {
+  height: 100%;
+  width: 100%;
+  padding: 8px;
+}
+.item-section h5 {
+  font-size: 1.1rem;
+  padding: 0 0 0.5rem 0;
+}
+.item-section p {
+  font-size: 1rem;
+}
+.card-info button {
+  height: 2.8rem;
+  width: 76%;
+  margin: 2rem 1.2rem 0;
+  border: none;
+  border-radius: 5px;
+  color: #1d7be7;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-weight: 500;
+  transition: all ease-out 0.5s;
+  background-color: rgb(239, 244, 255);
+}
+.card-info button:hover {
+  background-color: #0659c5;
+  color: white;
+}
+
 .footer-legals {
   width: 100%;
   padding: 0 2rem;
-  bottom: -54rem;
+  bottom: -133.5rem;
   position: absolute;
   display: flex;
   justify-content: space-between;
